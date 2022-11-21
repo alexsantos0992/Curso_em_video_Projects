@@ -1,0 +1,44 @@
+.body {
+    background-color: rgb(140, 165, 29);
+    font: normal, 15pt arial;
+}
+
+.p1 {
+    text-align: center;
+    font-size: 15pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.404);
+}
+
+.header {
+    color: white;
+    text-align: center;
+}
+
+.h1 {
+    color: rgb(0, 0, 0);
+}
+
+.footer {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-style: italic;
+}
+
+.verificarbtn {
+    text-align: center;
+}
+
+.div2 {
+    text-align: center;
+    font-style: oblique;
+    font-size: 18px;
+}

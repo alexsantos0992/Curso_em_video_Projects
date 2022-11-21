@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="body">
+    <header class="header">
+        <h1 class="h1">Verificador de idade</h1>
+    </header>
+    <p class="p1">
+        Preencha os dados abaixo para efetuar a verificação:
+    </p>
+    <section class="section">
+        <div class="div1">
+            <p>Ano de nascimento: 
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            <p>
+                Sexo:
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p class="verificarbtn">
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div class="div2" id="res">
+           
+        </div>
+    </section>
+    <footer class="footer">
+        <p>&copy; Curso em Video - By Alex Santos</p>
+    </footer>
+    
+    <script src="./js/index_i01.js"></script>
+</body>
+</html>
